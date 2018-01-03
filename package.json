@@ -1,6 +1,6 @@
 {
   "name": "@neo/nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "We'll build this Waypoint on Cloud 9, a powerful online code editor with a full Ubuntu Linux workspace, all running in the cloud.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/njang/nodeJS#readme",
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
-  }
+  },
+  "devDependencies": {}
 }
