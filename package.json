@@ -4,7 +4,7 @@
   "description": "We'll build this Waypoint on Cloud 9, a powerful online code editor with a full Ubuntu Linux workspace, all running in the cloud.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/njang/nodeJS/issues"
   },
-  "homepage": "https://github.com/njang/nodeJS#readme"
+  "homepage": "https://github.com/njang/nodeJS#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
